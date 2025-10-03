@@ -23,7 +23,7 @@ ios-screen-mirror
 
 ## Features
 
-- Connects to the AirConnect application to retrieve mirrored screen data.
+- Connects to the 3utools air application to retrieve mirrored screen data.
 - Analyzes the screen data to detect text and calculates the percentage of text present.
 - Sends notifications to a Discord channel when the text percentage exceeds 50%.
 
