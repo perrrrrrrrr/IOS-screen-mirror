@@ -1,0 +1,31 @@
+{
+  "name": "ios-screen-mirror",
+  "version": "1.0.0",
+  "description": "A project to monitor iOS device screens mirrored via AirConnect and notify via Discord when text exceeds a certain threshold.",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "ts-node src/main.ts",
+    "service": "powershell -ExecutionPolicy Bypass -File run-service.ps1",
+    "test-screen": "ts-node test-screen-detection.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@types/node-fetch": "^2.6.13",
+    "discord.js": "^14.0.0",
+    "dotenv": "^17.2.1",
+    "node-fetch": "^3.3.2",
+    "screenshot-desktop": "^1.15.1",
+    "sharp": "^0.34.3",
+    "tesseract.js": "^6.0.1",
+    "ts-node": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "@types/screenshot-desktop": "^1.15.0",
+    "typescript": "^5.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

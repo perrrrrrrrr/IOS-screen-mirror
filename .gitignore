@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+
+# Debug files
+debug/
+
+# Alerts and evidence
+alerts/
+evidence/
+
+# Test screenshots
+test_*.png
+current_screen.png
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/settings.json
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
